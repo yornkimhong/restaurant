@@ -1,0 +1,671 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body id="top">
+    
+    <header class="header" id="header">
+
+        <div class="nav container">
+            <div class="nav__logo">
+                <a href="./index.html"><img src="./images/logo.png" alt=""></a>
+            </div>
+
+            <nav class="nav__menu " id="nav-menu">
+                <div class="nav__logo inside__logo">
+                    <img src="./images/logo.svg" alt="" class="nav__image">
+                </div>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active">home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About us</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#menu" class="nav__link">menu</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#service" class="nav__link">service</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">contact</a>
+                    </li>
+                </ul>
+
+                <div class="nav__about center">
+                    <h2 class="navbar__title">Visit Us</h2>
+
+                    <address class="nav__address">
+                        Restaurant St, Delicious City, <br>
+                        London 9578, UK
+                    </address>
+
+                    <div class="nav__open">Open: 9.30 am - 2.30pm</div>
+
+                    <a href="mailto:booking@grilli.com" class="nav__email">booking@grilli.com</a>
+
+                    <!-- <div class="separator"></div> -->
+
+                    <p class="nav__contact">Booking Request</p>
+
+                    <a href="tel:+88123123456" class="nav__phone">
+                        +88-123-123456
+                    </a>
+                </div>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-circle-line"></i>
+                </div>
+            </nav>
+            
+            <div class="nav__toggle" id="nav-open">
+                <i class="ri-menu-line"></i>
+            </div>
+
+        </div>
+        <div class="overlay" id="over-lay"></div>
+    </header>
+
+ 
+    <!-- home section -->
+    <main class="main">
+
+        <section aria-label="Newest Photos" class="home" id="home">
+            <div class="carousel" data-carousel>
+                <button class="carousel-button prev" data-carousel-button="prev"><i class="ri-arrow-drop-left-line"></i></button>
+                <button class="carousel-button next" data-carousel-button="next"><i class="ri-arrow-drop-right-line"></i></button>
+                <ul data-slides class="container">
+                    <li class="slide" data-active>
+                        <div class="slide__image">
+                            <img src="./images/hero-slider-1.jpg" alt="Nature Image #1">
+                        </div>
+                        <div class="slide__data">
+                            <p class="slide__title slider-reveal">Tradational & Hygine</p>
+
+                            <h1 class="slide__subtitle slider-reveal">
+                            For the love of <br>
+                            delicious food
+                            </h1>
+
+                            <p class="slide__description slider-reveal">
+                            Come with family & feel the joy of mouthwatering food
+                            </p>
+
+                            <a href="#" class="btn">
+                                view our menu
+                            </a>
+                        </div>
+                    </li>
+                    <li class="slide" data-active>
+                        <div class="slide__image">
+                            <img src="./images/hero-slider-2.jpg" alt="Nature Image #1">
+                        </div>
+                        <div class="slide__data">
+                            <p class="slide__title slider-reveal">Tradational & Hygine</p>
+
+                            <h1 class="slide__subtitle slider-reveal">
+                            For the love of <br>
+                            delicious food
+                            </h1>
+
+                            <p class="slide__description slider-reveal">
+                            Come with family & feel the joy of mouthwatering food
+                            </p>
+
+                            <a href="#" class="btn">
+                                view our menu
+                            </a>
+                        </div>
+                    </li>
+                    <li class="slide" data-active>
+                        <div class="slide__image">
+                            <img src="./images/hero-slider-3.jpg" alt="Nature Image #1">
+                        </div>
+                        <div class="slide__data">
+                            <p class="slide__title slider-reveal">Tradational & Hygine</p>
+
+                            <h1 class="slide__subtitle slider-reveal">
+                            For the love of <br>
+                            delicious food
+                            </h1>
+
+                            <p class="slide__description slider-reveal">
+                            Come with family & feel the joy of mouthwatering food
+                            </p>
+
+                            <a href="#" class="btn">
+                                view our menu
+                            </a>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </section>
+
+
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data center">
+                    <h1 class="about__title">
+                        our story
+                    </h1>
+                    <h2 class="about__subtitle">
+                        Every Fla vor Tells a Story
+                    </h2>
+                    <p class="about__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eos ullam accusamus necessitatibus. Quo consectetur ab nostrum nobis itaque assumenda, dolor distinctio voluptates eligendi quaerat.
+                    </p>
+                    <h3 class="about__contact">
+                        book through call <br>
+                        <span>099 000 000</span>
+                    </h3>
+                    <div class="btn btn-secondary">read more</div>
+                
+                </div>
+
+                <div class="about__image">
+                    <img src="./images/dinner-table-with-foods-soft-drinks-restaurant.jpg" alt="" class="about-image">
+                </div>
+            </div>
+        </section>
+
+
+        <section class="menu section" id="menu">
+            <h3 class="menu__header center">
+                    our menu
+            </h3>
+            <div class="menu__container container grid">
+                
+                <div class="menu__box menu__box1 grid">
+                    <!-- card 1 -->
+                   <div class="menu__content grid">
+                        <div class="menu__image">
+                            <img src="./images/menu-1.png" alt="menu image" class="menu-img">
+                        </div>
+                        <div class="menu__data">
+                            <div class="menu__title">
+                                <h3 class="menu__subtitle">
+                                    sea food
+                                </h3>
+                                <p class="menu__price">
+                                    45$
+                                </p>
+                            </div>
+                            <div class="menu__desciption">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse possimus nihil ab ipsam odit exercitationem.
+                            </div>
+                        </div>
+                   </div>
+                    <!-- card 2 -->
+                   <div class="menu__content grid">
+                        <div class="menu__image">
+                            <img src="images/deep-fried-fhicken-roll-dark-surface.jpg" alt="menu image" class="menu-img">
+                        </div>
+                        <div class="menu__data">
+                            <div class="menu__title">
+                                <h3 class="menu__subtitle">
+                                    sea food
+                                </h3>
+                                <p class="menu__price">
+                                    45$
+                                </p>
+                            </div>
+                            <div class="menu__desciption">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse possimus nihil ab ipsam odit exercitationem.
+                            </div>
+                        </div>
+                   </div>
+                    <!-- card 3 -->
+                   <div class="menu__content grid">
+                        <div class="menu__image">
+                            <img src="images/american-shrimp-fried-rice-served-with-chili-fish-sauce-thai-food.jpg" alt="menu image" class="menu-img">
+                        </div>
+                        <div class="menu__data">
+                            <div class="menu__title">
+                                <h3 class="menu__subtitle">
+                                    sea food
+                                </h3>
+                                <p class="menu__price">
+                                    45$
+                                </p>
+                            </div>
+                            <div class="menu__desciption">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse possimus nihil ab ipsam odit exercitationem.
+                            </div>
+                        </div>
+                   </div>
+                    <!-- card 4 -->
+                   <div class="menu__content grid">
+                        <div class="menu__image">
+                            <img src="images/pork-green-curry-white-bowl-with-spices-black-cement-background.jpg" alt="menu image" class="menu-img">
+                        </div>
+                        <div class="menu__data">
+                            <div class="menu__title">
+                                <h3 class="menu__subtitle">
+                                    sea food
+                                </h3>
+                                <p class="menu__price">
+                                    45$
+                                </p>
+                            </div>
+                            <div class="menu__desciption">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse possimus nihil ab ipsam odit exercitationem.
+                            </div>
+                        </div>
+                   </div>
+
+                     <div class="menu__border"></div>
+                </div>
+              
+
+                 <div class="menu__box grid">
+                    <!-- card 1 -->
+                   <div class="menu__content grid">
+                        <div class="menu__image">
+                            <img src="./images/spicy-fried-tubtim-fish-salad-spicy-thai-food.jpg" alt="menu image" class="menu-img">
+                        </div>
+                        <div class="menu__data">
+                            <div class="menu__title">
+                                <h3 class="menu__subtitle">
+                                    sea food
+                                </h3>
+                                <p class="menu__price">
+                                    45$
+                                </p>
+                            </div>
+                            <div class="menu__desciption">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse possimus nihil ab ipsam odit exercitationem.
+                            </div>
+                        </div>
+                   </div>
+                    <!-- card 2 -->
+                   <div class="menu__content grid">
+                        <div class="menu__image">
+                            <img src="./images/fried-spring-rolls-cutting-board.jpg" alt="menu image" class="menu-img">
+                        </div>
+                        <div class="menu__data">
+                            <div class="menu__title">
+                                <h3 class="menu__subtitle">
+                                    sea food
+                                </h3>
+                                <p class="menu__price">
+                                    45$
+                                </p>
+                            </div>
+                            <div class="menu__desciption">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse possimus nihil ab ipsam odit exercitationem.
+                            </div>
+                        </div>
+                   </div>
+                    <!-- card 3 -->
+                   <div class="menu__content grid">
+                        <div class="menu__image">
+                            <img src="./images/fried-chicken-wings-with-fish-sauce-sweet-fish-sauce.jpg" alt="menu image" class="menu-img">
+                        </div>
+                        <div class="menu__data">
+                            <div class="menu__title">
+                                <h3 class="menu__subtitle">
+                                    sea food
+                                </h3>
+                                <p class="menu__price">
+                                    45$
+                                </p>
+                            </div>
+                            <div class="menu__desciption">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse possimus nihil ab ipsam odit exercitationem.
+                            </div>
+                        </div>
+                   </div>
+                    <!-- card 4 -->
+                   <div class="menu__content grid">
+                        <div class="menu__image">
+                            <img src="./images/kaeng-luang-yellow-curry-with-shrimp-coconut-shoots-southern-thai-traditional-food.jpg" alt="menu image" class="menu-img">
+                        </div>
+                        <div class="menu__data">
+                            <div class="menu__title">
+                                <h3 class="menu__subtitle">
+                                    sea food
+                                </h3>
+                                <p class="menu__price">
+                                    45$
+                                </p>
+                            </div>
+                            <div class="menu__desciption">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse possimus nihil ab ipsam odit exercitationem.
+                            </div>
+                        </div>
+                   </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="service section" id="service">
+            <div class="service__container container center grid">
+                <div class="service__header">
+                    <h2 class="service__title">
+                        Our Services
+                    </h2>
+                    <h3 class="service__subtitle">
+                        we offer top menu
+                    </h3>
+                    <p class="service__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro error ducimus sequi incidunt exercitationem aperiam.
+                    </p>
+                </div>
+                
+                <div class="service__container-box grid">
+
+                    <!-- content 1 -->
+                    <div class="service__content">
+                        <div class="service__image hover-shine">
+                            <img src="./images/basil-minced-pork-with-rice-fried-egg.jpg" alt="service image" class="service__img">
+                        </div>
+                        <div class="service__data">
+                            <h3 class="service__name">
+                                Breakfast
+                            </h3>
+                            <div class="service__link">
+                                <a href="#">view menu</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- content 2 -->
+                    <div class="service__content">
+                        <div class="service__image hover-shine">
+                            <img src="./images/high-angle-breakfast-sandwiches-bed-with-fried-egg-toast.jpg" alt="service image" class="service__img">
+                        </div>
+                        <div class="service__data">
+                            <h3 class="service__name">
+                                afternoon
+                            </h3>
+                            <div class="service__link">
+                                <a href="#">view menu</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- content 3 -->
+                    <div class="service__content content-3">
+                        <div class="service__image hover-shine">
+                            <img src="./images/salt-sprinkles-are-fallen-top-beef-steak-served-with-wine.jpg" alt="service image" class="service__img">
+                        </div>
+                        <div class="service__data">
+                            <h3 class="service__name">
+                                dinner
+                            </h3>
+                            <div class="service__link">
+                                <a href="#">view menu</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="sepcial__dish" id="special__dish">
+            <div class="special-dish__container grid">
+                <div class="special-dish__image">
+                    <img src="./images/chicken-larb-plate-with-dried-chilies-tomatoes-spring-onions-lettuce.jpg" alt="" class="special-dish__img">
+                </div>
+
+                <div class="special-dish__data container center">
+                    <h2 class="special-dish__title">
+                        special dishes
+                    </h2>
+                    <h3 class="special-dish__subtitle">
+                        Lobster Tortellini
+                    </h3>
+                    <p class="special-dish__desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nemo quo, molestiae neque beatae quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores officia maiores ipsa, laboriosam tenetur quis!
+                    </p>
+                    <div class="special-dish__price">
+                        <span>40$</span>&nbsp&nbsp  20$
+                    </div>
+                    <div class="btn">view our menu</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+                <div class="contact__content">
+                    <div class="contact__title center">
+                        <h2 class="quote">”</h2>
+                        <p class="quote__title">
+                            I wanted to thank you for inviting me down for that amazing dinner the other night. The food was
+                            extraordinary.
+                        </p>
+                        <div class="quote__image">
+                            <div class="quote__profile">
+                                <img src="./images/testi-avatar.jpg" alt="quote image profile" class="quote__img">
+                            </div>
+                            <div class="quote__text">mr. kimhong</div>
+                        </div>
+                </div>
+                </div>
+            <div class="contact__container container grid">
+                <div class="contact__form">
+                     <h2 class="form__title center">Online Reservation</h2>
+
+                    <p class="form__subtitle center">
+                        Booking request <a href="tel:+88123123456" class="link">+88-123-123456</a>
+                        or fill out the order form
+                    </p>
+
+                    <div class="input__wrapper grid">
+                        <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+                        <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+                    </div>
+ 
+                    <div class="input__wrapper grid-3">
+
+                        <div class="icon-wrapper grid">
+                            <i class="ri-user-fill"></i>    
+
+                            <select name="person" class="input-field">
+                                <option value="1-person">1 Person</option>
+                                <option value="2-person">2 Person</option>
+                                <option value="3-person">3 Person</option>
+                                <option value="4-person">4 Person</option>
+                                <option value="5-person">5 Person</option>
+                                <option value="6-person">6 Person</option>
+                                <option value="7-person">7 Person</option>
+                            </select>
+
+                            <!-- <i class="ri-arrow-down-s-line"></i> -->
+                        </div>
+
+                            <div class="icon-wrapper">
+                                <i class="ri-calendar-line"></i>
+
+                                <input type="date" name="reservation-date" class="input-field">
+
+                                <i class="ri-arrow-down-s-line"></i>
+                            </div>
+
+                            <div class="icon-wrapper">
+                                
+                                    <i class="ri-time-line"></i>
+                                <select name="person" class="input-field">
+                                    <option value="08:00am">08 : 00 am</option>
+                                    <option value="09:00am">09 : 00 am</option>
+                                    <option value="010:00am">10 : 00 am</option>
+                                    <option value="011:00am">11 : 00 am</option>
+                                    <option value="012:00am">12 : 00 am</option>
+                                    <option value="01:00pm">01 : 00 pm</option>
+                                    <option value="02:00pm">02 : 00 pm</option>
+                                    <option value="03:00pm">03 : 00 pm</option>
+                                    <option value="04:00pm">04 : 00 pm</option>
+                                    <option value="05:00pm">05 : 00 pm</option>
+                                    <option value="06:00pm">06 : 00 pm</option>
+                                    <option value="07:00pm">07 : 00 pm</option>
+                                    <option value="08:00pm">08 : 00 pm</option>
+                                    <option value="09:00pm">09 : 00 pm</option>
+                                    <option value="10:00pm">10 : 00 pm</option>
+                                </select>
+
+                                <!-- <i class="ri-arrow-down-s-line"></i> -->
+                        </div>
+                        <textarea name="message" class="textarea">message</textarea>
+                        <a href="#" class="btn contact-btn">book table</a>
+                    </div>
+
+                </div>
+                <div class="contact__data center">
+                    <h2 class="contact__title">
+                        contact us
+                    </h2>
+                    <h3 class="contact__subtitle">
+                        booking
+                    </h3>
+                    <p class="contact__phone">
+                        000000000000000 
+                    </p>
+                    <div class="location__container">
+                        <h3 class="location__title">
+                            location
+                        </h3>
+                        <div class="location__subtitle">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </div>
+                    </div>
+                    <div class="location__container">
+                        <h3 class="location__title">
+                            Breakfast time
+                        </h3>
+                        <div class="location__subtitle">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </div>
+                    </div>
+                    <div class="location__container">
+                        <h3 class="location__title">
+                            Lunch time
+                        </h3>
+                        <div class="location__subtitle">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </div>
+                    </div>
+                    <div class="location__container">
+                        <h3 class="location__title">
+                            dinner time
+                        </h3>
+                        <div class="location__subtitle">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="recent section" id="recent">
+            <div class="recent__container container grid">
+                <div class="recent__data center">
+                    <h2 class="recent__title">recent update</h2>
+                    <h3 class="recent__subtitle">upcoming events</h3>
+                </div>
+                <div class="recent__content grid">
+                     <!-- content-1 -->
+                    <div class="recent__box">
+                    <div class="recent__time">
+                        18/8/2023
+                    </div>
+                    <div class="recent__image hover-shine">
+                        <img src="./images/event-1.jpg" alt="recent image" class="recent-img">
+                    </div>
+                    <div class="box__container center">
+                        <div class="box__title">healthy food</div>
+                        <div class="box__subtitle">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, dolorem.
+                        </div>
+                    </div>
+                </div>
+                <!-- content-3 -->
+                <div class="recent__box">
+                    <div class="recent__time">
+                        18/8/2023
+                    </div>
+                    <div class="recent__image hover-shine">
+                        <img src="./images/event-3.jpg" alt="recent image" class="recent-img">
+                    </div>
+                    <div class="box__container center">
+                        <div class="box__title">healthy food</div>
+                        <div class="box__subtitle">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, dolorem.
+                        </div>
+                    </div>
+                </div>
+                <!-- content-2 -->
+                <div class="recent__box box-3">
+                    <div class="recent__time">
+                        18/8/2023
+                    </div>
+                    <div class="recent__image hover-shine">
+                        <img src="./images/event-2.jpg" alt="recent image" class="recent-img">
+                    </div>
+                    <div class="box__container center">
+                        <div class="box__title">healthy food</div>
+                        <div class="box__subtitle">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, dolorem.
+                        </div>
+                    </div>
+                </div>
+                </div>
+               
+                
+                <a href="#" class="btn recent-btn">view our blogs</a>
+            </div>
+        </section>
+        
+    </main>
+    <footer class="footer" id="footer">
+        <div class="main_container">
+            <div class="about_us">
+                <h3>about us</h3>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus iure nostrum recusandae eveniet ipsum neque quis vitae nihil soluta consectetur!</span>
+            </div>
+            <div class="time_open">
+                <h3>time</h3>
+                <p> Monday : 7:00am to 8:00pm</p>
+                <p> tueday : 7:00am to 8:00pm</p>
+                <p> Wednesday : 7:00am to 8:00pm</p>
+                <p> Thursday : 7:00am to 8:00pm</p>
+                <p> Friday : 7:00am to 8:00pm</p>
+                <p> Saturday and sunday : close</p>
+                
+            </div>
+            <div class="link_quite">
+                <h3>line quite</h3>
+                <a href="#home" class="active"> Home</a>
+                <a href="#about"> about</a>
+                <a href="#menu"> menu</a>
+            </div>
+            <div class="cantract">
+                <h3>contract</h3>
+                <p><i class="fa-solid fa-phone"></i> +855 000 000 000</p>
+                <p><i class="fa-solid fa-location-dot"></i> AEON Mall Sen Sok City, Phnom Penh</p>
+                <div class="icons_footer">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a> 
+                    <a href="#"><a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                 
+                </div>
+            </div>
+        </div>
+       
+    </footer>
+
+
+   <a class="top-scroll" id="top-scroll" href="#top"><i class="ri-arrow-up-s-line"></i></a>
+    <script src="main.js"></script>
+</body>
+</html>
