@@ -1128,6 +1128,10 @@ span {
   .box-3 {
     grid-column: auto;
   }
+  .footer .main_container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+  }
 }
 @media screen and (min-width: 1152px) {
   .container {
